@@ -1,0 +1,29 @@
+body{
+    background-image: url(descarga\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.cartaPersonaje{
+    width: 45%;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.cartaPersonaje .card-body {
+    position: relative;
+    padding: 15px;
+    background-color: #FFF;
+}
+
+.cartaPersonaje img {
+    transition: all 0.25s linear;
+    filter: blur(1px);
+}
+
+
+.cartaPersonaje:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: blur(0);
+}
